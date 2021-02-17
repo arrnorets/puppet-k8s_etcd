@@ -1,0 +1,12 @@
+[Unit]
+Description=ETCD - A distributed, reliable key-value store for the most critical data of a distributed system 
+Documentation=https://etcd.io
+
+[Service]
+Type=notify
+<%= @exec_start_string %>
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
