@@ -6,7 +6,7 @@
 
 
 # 1. Common purpose
-Etcd is a distributed reliable key-value store for the most critical data of a distributed system. This module provides configuration of etcd as a backend for Kubernetes.
+Etcd is a distributed reliable key-value store for the most critical data of a distributed system. This module provides configuration of etcd as a backend for Kubernetes. It is inspired by and based on https://github.com/kelseyhightower/kubernetes-the-hard-way guide.
 
 # 2. Compatibility
 This module was tested on CentOS 7.
